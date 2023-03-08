@@ -29,15 +29,15 @@ const Home = () => {
 
         <div className="flex flex-row space-x-2 text-md">
           <Link to="work" smooth={true} duration={500}>
-            <button className="rounded-full text-pink-600 group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6d6875] hover:border-white hover:text-white">
+            <button className="rounded-full  text-pink-600 group border-2 px-2 py-2 my-2 flex items-center hover:bg-[#6d6875] hover:border-white hover:text-white">
               View project
               <span className="group-hover:rotate-90 duration-300">
-                <RiArrowRightCircleLine size={20} className="ml-3 " />
+                <RiArrowRightCircleLine size={20} className="ml-1 " />
               </span>
             </button>
           </Link>
           <a href={Resume} download="Resume_Kanchaporn_Chiangthong">
-            <button className="rounded-full text-pink-600 group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6d6875] hover:border-white hover:text-white">
+            <button className="rounded-full text-pink-600 group border-2 px-2 py-2 my-2 flex items-center hover:bg-[#6d6875] hover:border-white hover:text-white">
               Resume
               <span className="group-hover:rotate-90 duration-300"></span>
             </button>
