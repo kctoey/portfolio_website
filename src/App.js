@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Home from "./components/Home.js";
+import Navbar from "./components/Navbar.js";
+import About from "./components/About.js";
+import Skills from "./components/Skills.js";
+import Work from "./components/Work.js";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Education from "./components/Education.js";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Home />
+      <Skills />
+      <Work />
+      <Education />
     </div>
   );
 }
