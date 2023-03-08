@@ -15,25 +15,11 @@ const Home = () => {
           <Switcher className="z-0 " />
         </div>
         <div>
-          <p
-            className="text-pink-600 text-2xl"
-            data-aos="fade-right"
-            data-aos-offset="300"
-          >
-            Hi, my name is
-          </p>
-          <h1
-            className="text-4xl text-pink-600 sm:text-7xl font-bold "
-            data-aos="fade-right"
-            data-aos-offset="300"
-          >
+          <p className="text-pink-600 text-2xl">Hi, my name is</p>
+          <h1 className="text-4xl text-pink-600 sm:text-7xl font-bold ">
             Toey
           </h1>
-          <h2
-            className="text-4xl sm:text-7xl font-bold "
-            data-aos="fade-right"
-            data-aos-offset="300"
-          >
+          <h2 className="text-4xl sm:text-7xl font-bold ">
             I'm a Frontend Web Developer
           </h2>
           <p className="text-xl py-4 max-w-[700px]">
@@ -41,7 +27,7 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="flex flex-row space-x-2 text-lg">
+        <div className="flex flex-row space-x-2 text-md">
           <Link to="work" smooth={true} duration={500}>
             <button className="rounded-full text-pink-600 group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6d6875] hover:border-white hover:text-white">
               View project

@@ -10,10 +10,8 @@ import Todo from "../asset/todo.JPG";
 const Work = () => {
   return (
     <div
-      data-aos="fade-left"
-      data-aos-duration="600"
       name="work"
-      className="font-Concert w-full md:h-screen bg-white text-black dark:bg-slate-900 transition duration-300 dark:text-[#ffbb29]"
+      className="font-Concert w-screen sm:w-full md:h-screen bg-white text-black dark:bg-slate-900 transition duration-300 dark:text-[#ffbb29]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="my-6 pt-16">
@@ -22,20 +20,20 @@ const Work = () => {
           </p>
         </div>
         {/* grid container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 ">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
           {/* grid item */}
-          <div className="p-4 bg-white dark:bg-slate-800 rounded-xl shadow-2xl transition duration-200 hover:scale-105 ">
+          <div className=" p-4 bg-white dark:bg-slate-800 rounded-xl shadow-2xl transition duration-200 hover:scale-105 ">
             <div
               style={{ backgroundImage: `url(${Easybank})` }}
               className=" group container rounded-md flex justify-center items-center mx-auto content-div "
             >
               {/* Hover effect */}
 
-              <div className="opacity-0 group-hover:opacity-100 transition duration-200  ">
+              <div className="opacity-0 group-hover:opacity-100  transition duration-200  ">
                 <span className="text-2xl  text-white tracking-wider ">
                   Easybank website
                 </span>
-                <div className="pt-8 text-center">
+                <div className="pt-8 text-center invisible sm:visible">
                   <a href="https://easybank-bvn.pages.dev/">
                     <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
                       <AiOutlineEye />
@@ -60,7 +58,7 @@ const Work = () => {
               <h2 className="bg-pink-600 dark:bg-amber-600 w-16 rounded-md">
                 React
               </h2>
-              <h2 className="bg-pink-600 dark:bg-amber-600 w-16 rounded-md">
+              <h2 className="bg-pink-600 dark:bg-amber-600 w-20 rounded-md">
                 Tailwind
               </h2>
               <h2 className="bg-pink-600 dark:bg-amber-600 w-16 rounded-md">
@@ -116,10 +114,10 @@ const Work = () => {
               </p>
             </div>
             <div className="flex flex-row space-x-2 text-center py-2 text-white">
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-20 rounded-md">
+              <h2 className="bg-pink-600  dark:bg-amber-600 w-24 rounded-md">
                 Javascript
               </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
+              <h2 className="bg-pink-600  dark:bg-amber-600 w-20 rounded-md">
                 Tailwind
               </h2>
               <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
@@ -179,13 +177,13 @@ const Work = () => {
               <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
                 React
               </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
+              <h2 className="bg-pink-600  dark:bg-amber-600 w-20 rounded-md">
                 Tailwind
               </h2>
               <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
                 API
               </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-20 rounded-md">
+              <h2 className="bg-pink-600  dark:bg-amber-600 w-24 rounded-md">
                 useContext
               </h2>
             </div>
@@ -231,26 +229,26 @@ const Work = () => {
               </div>
             </div>
             <div>
-              <h2 className="pt-4 text-2xl">Food cart App</h2>
+              <h2 className="pt-4 text-2xl">Food Shopping cart</h2>
               <p>
                 Create shopping cart with notify when adding product. Authorized
                 login and logout with Google account.
               </p>
             </div>
-            <div className="flex flex-row items-center flex-wrap  space-x-2  text-center py-2 text-white">
-              <h2 className="bg-pink-600 dark:bg-amber-600 my-2 w-16 rounded-md">
+            <div className="flex flex-row  flex-wrap  space-x-2 items-center  text-center py-2 text-white">
+              <h2 className="bg-pink-600  dark:bg-amber-600 my-2 w-16 rounded-md">
                 React
               </h2>
-              <h2 className="bg-pink-600 dark:bg-amber-600  w-16 rounded-md">
+              <h2 className="bg-pink-600 dark:bg-amber-600  w-20 rounded-md">
                 Tailwind
               </h2>
               <h2 className="bg-pink-600 dark:bg-amber-600 w-32 rounded-md">
                 Redux-toolkit
               </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
+              <h2 className="bg-pink-600  dark:bg-amber-600 w-20 rounded-md">
                 Firebase
               </h2>
-              <h2 className="bg-pink-600 dark:bg-amber-600  w-32 rounded-md">
+              <h2 className="mt-2 bg-pink-600 dark:bg-amber-600  w-36 rounded-md">
                 react-hot-toast
               </h2>
             </div>
@@ -359,7 +357,7 @@ const Work = () => {
               <h2 className="bg-pink-600 dark:bg-amber-600 my-2 w-16 rounded-md">
                 React
               </h2>
-              <h2 className="bg-pink-600 dark:bg-amber-600  w-16 rounded-md">
+              <h2 className="bg-pink-600 dark:bg-amber-600  w-20 rounded-md">
                 Tailwind
               </h2>
 

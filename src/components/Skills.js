@@ -13,10 +13,8 @@ import Mysql from "../asset/Mysql.png";
 const Skills = () => {
   return (
     <div
-      data-aos="fade-right"
-      data-aos-duration="600"
       name="skills"
-      className="font-Concert bg-white text-black w-full h-[1000px] sm:h-screen dark:bg-slate-900 transition duration-300 dark:text-[#ffbb29]"
+      className="font-Concert bg-white text-black w-screen sm:w-full h-[1000px] sm:h-screen dark:bg-slate-900 transition duration-300 dark:text-[#ffbb29]"
     >
       <div className="max-w-[1000px] mx-auto py-8 px-4 flex flex-col justify-center h-full">
         <div>

@@ -8,8 +8,11 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="font-Concert z-20  fixed w-screen h-[80px] flex justify-center items-center  pr-8 bg-white text-black shadow-xl dark:bg-slate-900 dark:border-b-[1px] dark:border-b-gray-800 transition duration-300 dark:text-[#ffbb29]">
-      <ul className="hidden md:flex space-x-8 cursor-pointer  ">
+    <div className="font-Concert z-20  fixed w-screen h-[80px] flex justify-between items-center pr-8 bg-white text-black shadow-xl dark:bg-slate-900 dark:border-b-[1px] dark:border-b-gray-800 transition duration-300 dark:text-[#ffbb29]">
+      <div className="pl-8">
+        <h1 className="text-4xl sm:visible invisible">K</h1>
+      </div>
+      <ul className="hidden sm:flex space-x-8 cursor-pointer  pr-20">
         <li className="py-6 text-xl hover:scale-110 transition duration-100">
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -38,7 +41,7 @@ const Navbar = () => {
         </li> */}
       </ul>
 
-      <div onClick={handleClick} className="md:hidden z-10 cursor-pointer ">
+      <div onClick={handleClick} className="sm:hidden z-10 cursor-pointer  ">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -46,7 +49,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : " absolute space-y-4  top-0 left-0 w-full h-screen flex flex-col justify-center items-center  bg-[#0a193f] "
+            : " absolute space-y-4  top-0 left-0 w-full h-screen flex flex-col justify-center items-center  bg-white text-black  dark:bg-slate-900 dark:text-white "
         }
       >
         <li className="cursor-pointer py-6 text-xl hover:scale-110 transition duration-100">
