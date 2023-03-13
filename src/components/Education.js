@@ -43,7 +43,7 @@ const Education = () => {
         <div className=" w-full px-4 ">
           <div>
             <p className="text-start text-4xl  inline border-b-4 border-pink-600 uppercase">
-              Certtification
+              Certification
             </p>
             <div className=" flex flex-col text-xl pt-2">
               <div className="md:grid md:grid-cols-2 gap-8 px-4 md:w-[1000px] ">
