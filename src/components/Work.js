@@ -11,9 +11,9 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="font-Concert w-screen sm:w-full md:h-screen bg-white text-black dark:bg-slate-900 transition duration-300 dark:text-[#ffbb29]"
+      className="font-Concert w-screen sm:w-full  bg-white text-black dark:bg-slate-900 transition duration-300 dark:text-[#ffbb29]"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="my-6 pt-16">
           <p className=" text-4xl pt-4  inline border-b-4 border-pink-600 uppercase">
             Personal Projects
