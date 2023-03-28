@@ -34,7 +34,7 @@ const Work = () => {
                   Easybank website
                 </span>
                 <div className="pt-8 text-center invisible sm:visible">
-                  <a href="https://easybank-bvn.pages.dev/">
+                  <a href="https://easybank-landing-page-722.pages.dev/">
                     <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
                       <AiOutlineEye />
                     </button>
