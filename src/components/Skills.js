@@ -5,11 +5,13 @@ import Firebase from "../asset/firebase.png";
 import React from "../asset/react.png";
 import Tailwind from "../asset/tailwind.png";
 import Reactlogo from "../asset/react.png";
-import Sass from "../asset/sass.png";
 import Vite from "../asset/vite.png";
 import Git from "../asset/Git.png";
-import Mysql from "../asset/Mysql.png";
 
+import Express from "../asset/Expressjs.png";
+import mongoDB from "../asset/mongoDB.png";
+import node from "../asset/node.png";
+import nextjs from "../asset/nextjs.png";
 const Skills = () => {
   return (
     <div
@@ -27,7 +29,7 @@ const Skills = () => {
         </div>
 
         <div className=" text-2xl w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className="hover:scale-110 duration-500">
+          <div className="hover:scale-110 duration-500  text-center">
             <img className="w-20 mx-auto" src={Html} alt="HTML icon" />
             <p className="my-4">HTML</p>
           </div>
@@ -55,17 +57,34 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={Git} alt="Git icon" />
             <p className="my-4">Git</p>
           </div>
+
           <div className="hover:scale-110 duration-500 ">
-            <img className="w-20   mx-auto" src={Sass} alt="Sass icon" />
-            <p className="my-10">Sass</p>
+            <img className="w-20 h-20  mx-auto" src={Vite} alt="Vite icon" />
+            <p className="my-4">Vite</p>
+          </div>
+          <div className="hover:scale-110 duration-500">
+            <img className="w-20 h-20  mx-auto" src={nextjs} alt="Mysql icon" />
+            <p className="my-4">Next.js</p>
           </div>
           <div className="hover:scale-110 duration-500 ">
-            <img className="w-20   mx-auto" src={Vite} alt="Vite icon" />
-            <p className="my-10">Vite</p>
+            <img className="w-20 h-20  mx-auto" src={node} alt="node icon" />
+            <p className="my-4">Node.js</p>
           </div>
           <div className="hover:scale-110 duration-500 ">
-            <img className="w-20   mx-auto" src={Mysql} alt="Mysql icon" />
-            <p className="mt-10 pt-8">Mysql</p>
+            <img
+              className="w-20 h-20  mx-auto"
+              src={mongoDB}
+              alt="mongoDB icon"
+            />
+            <p className="my-4">MongoDB</p>
+          </div>
+          <div className="hover:scale-110 duration-500 ">
+            <img
+              className="w-20  mt-8 mx-auto"
+              src={Express}
+              alt="Express icon"
+            />
+            <p className="mt-8 pt-2 ">Express.js</p>
           </div>
         </div>
       </div>
