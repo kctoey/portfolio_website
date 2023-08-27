@@ -1,13 +1,12 @@
 import React from "react";
-import Easybank from "../asset/easybank1.JPG";
-import Advice from "../asset/advice.JPG";
+import Myblog from "../asset/myblog.PNG";
 import FoodApp from "../asset/shoppingcart.JPG";
 import MealApp from "../asset/mealproject.JPG";
+import Ecommerce from "../asset/ecom.PNG";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineEye } from "react-icons/ai";
-import Drink from "../asset/drink.JPG";
-import Todo from "../asset/todo.JPG";
-const Work = () => {
+import Kotlin from "../asset/kotlin2.PNG";
+const Work2 = () => {
   return (
     <div
       name="work"
@@ -20,27 +19,27 @@ const Work = () => {
           </p>
         </div>
         {/* grid container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4 ">
           {/* grid item */}
           <div className=" p-4 bg-white dark:bg-slate-800 rounded-xl shadow-2xl transition duration-200 hover:scale-105 ">
             <div
-              style={{ backgroundImage: `url(${Easybank})` }}
+              style={{ backgroundImage: `url(${Ecommerce})` }}
               className=" group container rounded-md flex justify-center items-center mx-auto content-div "
             >
               {/* Hover effect */}
 
               <div className="opacity-0 group-hover:opacity-100  transition duration-200  ">
                 <span className="text-2xl  text-white tracking-wider ">
-                  Easybank website
+                  E-commerce online shop
                 </span>
                 <div className="pt-8 text-center invisible sm:visible">
-                  <a href="https://easybank-landing-page-722.pages.dev/">
-                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
+                  <a target="_blank" href="https://myshop-tau.vercel.app/">
+                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white text-lg hover:bg-amber-500 hover:text-white">
                       <AiOutlineEye />
                     </button>
                   </a>
-                  <a href="https://github.com/kctoey/Easybank_Project.git">
-                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg hover:bg-gray-500 hover:text-white">
+                  <a target="_blank" href="https://github.com/kctoey/Food_App">
+                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white text-lg hover:bg-gray-500 hover:text-white">
                       <AiFillGithub />
                     </button>
                   </a>
@@ -48,32 +47,47 @@ const Work = () => {
               </div>
             </div>
             <div>
-              <h2 className="pt-4 text-2xl">Easy bank Website</h2>
+              <h2 className="pt-4 text-2xl"> E-commerce online shop</h2>
               <p>
-                Create a website design based on the Frontend Mentor. Website is
-                responsive, includes animations, and is mobile-friendly
+                The online shopping website offers users the ability to
+                seamlessly add and remove products, calculate prices, access
+                user profiles and order history, edit usernames, and upload
+                images, all while ensuring mobile-friendliness for a smooth
+                experience.
               </p>
             </div>
-            <div className="flex flex-row space-x-2 text-center py-2  text-white">
-              <h2 className="bg-pink-600 dark:bg-amber-600 w-16 rounded-md">
+            <div className="flex flex-row flex-wrap  space-x-2 text-center py-2  text-white">
+              <h2 className="bg-pink-600 dark:bg-amber-600 mt-2  px-2 rounded-md">
                 React
               </h2>
-              <h2 className="bg-pink-600 dark:bg-amber-600 w-20 rounded-md">
+              <h2 className="bg-pink-600 dark:bg-amber-600 mt-2 px-2 rounded-md">
                 Tailwind
               </h2>
-              <h2 className="bg-pink-600 dark:bg-amber-600 w-16 rounded-md">
-                AOS
+              <h2 className="bg-pink-600 dark:bg-amber-600 mt-2 px-2 rounded-md">
+                Vite.js
+              </h2>
+              <h2 className="bg-pink-600 dark:bg-amber-600 mt-2 px-2 rounded-md">
+                Firebase
+              </h2>
+              <h2 className="bg-pink-600 dark:bg-amber-600 mt-2 px-2 rounded-md">
+                redux-toolkit
+              </h2>
+              <h2 className="bg-pink-600 dark:bg-amber-600 px-2 mt-2 rounded-md">
+                redux-persist
               </h2>
             </div>
             <div>
               <div className=" text-center visible md:invisible md:hidden ">
-                <a href="https://easybank-bvn.pages.dev/">
-                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
+                <a target="_blank" href="https://easybank-bvn.pages.dev/">
+                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white text-lg hover:bg-amber-500 hover:text-white">
                     <AiOutlineEye />
                   </button>
                 </a>
-                <a href="https://github.com/kctoey/Easybank_Project.git">
-                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg hover:bg-gray-500 hover:text-white">
+                <a
+                  target="_blank"
+                  href="https://github.com/kctoey/Easybank_Project.git"
+                >
+                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white text-lg hover:bg-gray-500 hover:text-white">
                     <AiFillGithub />
                   </button>
                 </a>
@@ -81,25 +95,31 @@ const Work = () => {
             </div>
           </div>
 
-          <div className=" p-4 bg-white dark:bg-slate-800 rounded-xl shadow-2xl transition duration-200 hover:scale-105 ">
+          {/* <div className=" p-4 bg-white dark:bg-slate-800 rounded-xl shadow-2xl transition duration-200 hover:scale-105 ">
             <div
               style={{ backgroundImage: `url(${Easybank})` }}
               className=" group container rounded-md flex justify-center items-center mx-auto content-div "
             >
-              {/* Hover effect */}
+    
 
               <div className="opacity-0 group-hover:opacity-100  transition duration-200  ">
                 <span className="text-2xl  text-white tracking-wider ">
                   Easybank website
                 </span>
                 <div className="pt-8 text-center invisible sm:visible">
-                  <a href="https://easybank-landing-page-722.pages.dev/">
-                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
+                  <a
+                    target="_blank"
+                    href="https://easybank-landing-page-722.pages.dev/"
+                  >
+                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white text-lg hover:bg-amber-500 hover:text-white">
                       <AiOutlineEye />
                     </button>
                   </a>
-                  <a href="https://github.com/kctoey/Easybank_Project.git">
-                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg hover:bg-gray-500 hover:text-white">
+                  <a
+                    target="_blank"
+                    href="https://github.com/kctoey/Easybank_Project.git"
+                  >
+                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white text-lg hover:bg-gray-500 hover:text-white">
                       <AiFillGithub />
                     </button>
                   </a>
@@ -126,39 +146,49 @@ const Work = () => {
             </div>
             <div>
               <div className=" text-center visible md:invisible md:hidden ">
-                <a href="https://easybank-bvn.pages.dev/">
-                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
+                <a target="_blank" href="https://easybank-bvn.pages.dev/">
+                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white text-lg hover:bg-amber-500 hover:text-white">
                     <AiOutlineEye />
                   </button>
                 </a>
-                <a href="https://github.com/kctoey/Easybank_Project.git">
-                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg hover:bg-gray-500 hover:text-white">
+                <a
+                  target="_blank"
+                  href="https://github.com/kctoey/Easybank_Project.git"
+                >
+                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white text-lg hover:bg-gray-500 hover:text-white">
                     <AiFillGithub />
                   </button>
                 </a>
               </div>
             </div>
-          </div>
+          </div> 
+          */}
 
           <div className="p-4 bg-white dark:bg-slate-800 rounded-xl shadow-2xl transition duration-200 hover:scale-105">
             <div
-              style={{ backgroundImage: `url(${Advice})` }}
+              style={{ backgroundImage: `url(${Myblog})` }}
               className=" group container rounded-md flex justify-center items-center mx-auto content-div "
             >
               {/* Hover effect */}
 
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl  text-white tracking-wider ">
-                  Random Advice
+                  Toey Dev website
                 </span>
                 <div className="pt-8 text-center">
-                  <a href="https://randomadvice.pages.dev/">
-                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
+                  <a
+                    target="_blank"
+                    href="https://blog-next-auth-tau.vercel.app/"
+                  >
+                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white text-lg hover:bg-amber-500 hover:text-white">
                       <AiOutlineEye />
                     </button>
                   </a>
-                  <a href="https://github.com/kctoey/Randomadvice">
-                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg hover:bg-gray-500 hover:text-white">
+                  <a
+                    target="_blank"
+                    href="https://github.com/kctoey/Blog_next_auth"
+                  >
+                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white text-lg hover:bg-gray-500 hover:text-white">
                       <AiFillGithub />
                     </button>
                   </a>
@@ -166,33 +196,47 @@ const Work = () => {
               </div>
             </div>
             <div>
-              <h2 className="pt-4 text-2xl">Random Advice</h2>
+              <h2 className="pt-4 text-2xl">My Blog</h2>
               <p>
-                Create random quote by using Advice Slip JSON API with
-                Dark/Light Mode
+                The platform allows users to create and delete posts, including
+                images. while bolstering security through robust user
+                authentication, including the convenience of Google Login
+                access.
               </p>
             </div>
             <div className="flex flex-row space-x-2 text-center py-2 text-white">
               <h2 className="bg-pink-600  dark:bg-amber-600 w-24 rounded-md">
-                Javascript
+                Next.js
               </h2>
               <h2 className="bg-pink-600  dark:bg-amber-600 w-20 rounded-md">
                 Tailwind
               </h2>
               <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
-                API
+                MongoDB
+              </h2>
+              <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
+                Next Auth
+              </h2>
+              <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
+                SWR
+              </h2>
+              <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
+                Cloudinary
               </h2>
             </div>
 
             <div>
               <div className=" text-center visible md:invisible ">
-                <a href="https://easybank-bvn.pages.dev/">
-                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
+                <a target="_blank" href="https://easybank-bvn.pages.dev/">
+                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white text-lg hover:bg-amber-500 hover:text-white">
                     <AiOutlineEye />
                   </button>
                 </a>
-                <a href="https://github.com/kctoey/Easybank_Project.git">
-                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg hover:bg-gray-500 hover:text-white">
+                <a
+                  target="_blank"
+                  href="https://github.com/kctoey/Easybank_Project.git"
+                >
+                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white text-lg hover:bg-gray-500 hover:text-white">
                     <AiFillGithub />
                   </button>
                 </a>
@@ -212,13 +256,16 @@ const Work = () => {
                   Search Meal App
                 </span>
                 <div className="pt-8 text-center ">
-                  <a href="https://meal-app.pages.dev/">
-                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
+                  <a target="_blank" href="https://meal-app.pages.dev/">
+                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white text-lg hover:bg-amber-500 hover:text-white">
                       <AiOutlineEye />
                     </button>
                   </a>
-                  <a href="https://github.com/kctoey/Recipes-App.git">
-                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg hover:bg-gray-500 hover:text-white">
+                  <a
+                    target="_blank"
+                    href="https://github.com/kctoey/Recipes-App.git"
+                  >
+                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white text-lg hover:bg-gray-500 hover:text-white">
                       <AiFillGithub />
                     </button>
                   </a>
@@ -226,10 +273,10 @@ const Work = () => {
               </div>
             </div>
             <div>
-              <h2 className="pt-4 text-2xl">Search Meal App</h2>
+              <h2 className="pt-4 text-2xl">Search Meal </h2>
               <p>
-                Create search meal app for view recipe by using MealDB API and
-                random meal function
+                Create search meal app for view recipe from Mealdb API and
+                random meal with mobile friendly
               </p>
             </div>
             <div className="flex flex-row space-x-2 text-center py-2 text-white">
@@ -248,13 +295,16 @@ const Work = () => {
             </div>
             <div>
               <div className=" text-center visible md:invisible md:hidden ">
-                <a href="https://easybank-bvn.pages.dev/">
-                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
+                <a target="_blank" href="https://easybank-bvn.pages.dev/">
+                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white text-lg hover:bg-amber-500 hover:text-white">
                     <AiOutlineEye />
                   </button>
                 </a>
-                <a href="https://github.com/kctoey/Easybank_Project.git">
-                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg hover:bg-gray-700 hover:text-white">
+                <a
+                  target="_blank"
+                  href="https://github.com/kctoey/Easybank_Project.git"
+                >
+                  <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white text-lg hover:bg-gray-700 hover:text-white">
                     <AiFillGithub />
                   </button>
                 </a>
@@ -264,23 +314,24 @@ const Work = () => {
 
           <div className="p-4 bg-white dark:bg-slate-800 rounded-xl shadow-2xl transition duration-200 hover:scale-105">
             <div
-              style={{ backgroundImage: `url(${FoodApp})` }}
+              style={{ backgroundImage: `url(${Kotlin})` }}
               className=" group container rounded-md flex justify-center items-center mx-auto content-div "
             >
-              {/* Hover effect */}
-
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl    text-white tracking-wider ">
-                  Food Shopping cart
+                  Acronym mobile App
                 </span>
                 <div className="pt-8 text-center">
-                  <a href="https://foodapp.pages.dev/">
-                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
+                  {/* <a target="_blank" href="https://foodapp.pages.dev/">
+                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white text-lg hover:bg-amber-500 hover:text-white">
                       <AiOutlineEye />
                     </button>
-                  </a>
-                  <a href="https://github.com/kctoey/Food_App">
-                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg hover:bg-gray-500 hover:text-white">
+                  </a> */}
+                  <a
+                    target="_blank"
+                    href="https://github.com/kctoey/Acronym-Mobile-App.git"
+                  >
+                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white text-lg hover:bg-gray-500 hover:text-white">
                       <AiFillGithub />
                     </button>
                   </a>
@@ -288,48 +339,42 @@ const Work = () => {
               </div>
             </div>
             <div>
-              <h2 className="pt-4 text-2xl">Food Shopping cart</h2>
+              <h2 className="pt-4 text-2xl"> Acronym Mobile App</h2>
               <p>
-                Create shopping cart with notify when adding product. Authorized
-                login and logout with Google account.
+                Effortlessly manage your vocabulary with our mobile app can
+                create,update,delete new word
               </p>
             </div>
             <div className="flex flex-row  flex-wrap  space-x-2 items-center  text-center py-2 text-white">
               <h2 className="bg-pink-600  dark:bg-amber-600 my-2 w-16 rounded-md">
-                React
+                Kotlin
               </h2>
-              <h2 className="bg-pink-600 dark:bg-amber-600  w-20 rounded-md">
-                Tailwind
-              </h2>
-              <h2 className="bg-pink-600 dark:bg-amber-600 w-32 rounded-md">
-                Redux-toolkit
-              </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-20 rounded-md">
-                Firebase
-              </h2>
-              <h2 className="mt-2 bg-pink-600 dark:bg-amber-600  w-36 rounded-md">
-                react-hot-toast
+              <h2 className="bg-pink-600  dark:bg-amber-600 my-2 w-16 rounded-md">
+                SQLite
               </h2>
             </div>
             <div className=" text-center visible md:invisible md:hidden ">
-              <a href="https://easybank-bvn.pages.dev/">
-                <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
+              <a target="_blank" href="https://easybank-bvn.pages.dev/">
+                <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white text-lg hover:bg-amber-500 hover:text-white">
                   <AiOutlineEye />
                 </button>
               </a>
-              <a href="https://github.com/kctoey/Easybank_Project.git">
-                <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg hover:bg-gray-700 hover:text-white">
+              <a
+                target="_blank"
+                href="https://github.com/kctoey/Easybank_Project.git"
+              >
+                <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white text-lg hover:bg-gray-700 hover:text-white">
                   <AiFillGithub />
                 </button>
               </a>
             </div>
           </div>
-          <div className="p-4 bg-white dark:bg-slate-800 rounded-xl shadow-2xl transition duration-200 hover:scale-105">
+          {/* <div className="p-4 bg-white dark:bg-slate-800 rounded-xl shadow-2xl transition duration-200 hover:scale-105">
             <div
               style={{ backgroundImage: `url(${Drink})` }}
               className=" group container rounded-md flex justify-center items-center mx-auto content-div "
             >
-              {/* Hover effect */}
+            
 
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl  text-white tracking-wider ">
@@ -337,12 +382,12 @@ const Work = () => {
                 </span>
                 <div className="pt-8 text-center">
                   <a href="https://drink-water-js-app.netlify.app/">
-                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
+                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white text-lg hover:bg-amber-500 hover:text-white">
                       <AiOutlineEye />
                     </button>
                   </a>
                   <a href="https://github.com/kctoey/Drink_water.git">
-                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg hover:bg-gray-500 hover:text-white">
+                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white text-lg hover:bg-gray-500 hover:text-white">
                       <AiFillGithub />
                     </button>
                   </a>
@@ -369,23 +414,23 @@ const Work = () => {
             </div>
             <div className=" text-center visible md:invisible md:hidden ">
               <a href="https://drink-water-js-app.netlify.app/">
-                <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
+                <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white text-lg hover:bg-amber-500 hover:text-white">
                   <AiOutlineEye />
                 </button>
               </a>
               <a href="https://github.com/kctoey/Drink_water.git">
-                <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg hover:bg-gray-500 hover:text-white">
+                <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white text-lg hover:bg-gray-500 hover:text-white">
                   <AiFillGithub />
                 </button>
               </a>
             </div>
-          </div>
-          <div className="p-4 bg-white dark:bg-slate-800 rounded-xl shadow-2xl transition duration-200 hover:scale-105">
+          </div> */}
+          {/* <div className="p-4 bg-white dark:bg-slate-800 rounded-xl shadow-2xl transition duration-200 hover:scale-105">
             <div
               style={{ backgroundImage: `url(${Todo})` }}
               className=" group container rounded-md flex justify-center items-center mx-auto content-div "
             >
-              {/* Hover effect */}
+         
 
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl   text-white tracking-wider ">
@@ -393,12 +438,12 @@ const Work = () => {
                 </span>
                 <div className="pt-8 text-center">
                   <a href="https://todo-firebase-dvd.pages.dev/">
-                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
+                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white text-lg hover:bg-amber-500 hover:text-white">
                       <AiOutlineEye />
                     </button>
                   </a>
                   <a href="https://github.com/kctoey/Todo_Firebase.git">
-                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg hover:bg-gray-500 hover:text-white">
+                    <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white text-lg hover:bg-gray-500 hover:text-white">
                       <AiFillGithub />
                     </button>
                   </a>
@@ -426,21 +471,21 @@ const Work = () => {
             </div>
             <div className=" text-center visible md:invisible md:hidden ">
               <a href="https://easybank-bvn.pages.dev/">
-                <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white font-bold text-lg hover:bg-amber-500 hover:text-white">
+                <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-amber-600 text-white text-lg hover:bg-amber-500 hover:text-white">
                   <AiOutlineEye />
                 </button>
               </a>
               <a href="https://github.com/kctoey/Easybank_Project.git">
-                <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white font-bold text-lg hover:bg-gray-700 hover:text-white">
+                <button className="h-12 text-center rounded-full px-4 py-3 m-2 bg-gray-700 text-white text-lg hover:bg-gray-700 hover:text-white">
                   <AiFillGithub />
                 </button>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
   );
 };
 
-export default Work;
+export default Work2;
