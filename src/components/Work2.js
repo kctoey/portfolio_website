@@ -10,7 +10,7 @@ const Work2 = () => {
   return (
     <div
       name="work"
-      className="font-Concert w-screen sm:w-full  bg-white text-black dark:bg-slate-900 transition duration-300 dark:text-[#ffbb29]"
+      className="font-Concert   bg-white text-black dark:bg-slate-900 transition duration-300 dark:text-[#ffbb29]"
     >
       <div className="max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="my-6 pt-16">
@@ -19,12 +19,12 @@ const Work2 = () => {
           </p>
         </div>
         {/* grid container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4 ">
+        <div className="grid grid-none  md:grid-cols-2 gap-4 ">
           {/* grid item */}
           <div className=" p-4 bg-white dark:bg-slate-800 rounded-xl shadow-2xl transition duration-200 hover:scale-105 ">
             <div
               style={{ backgroundImage: `url(${Ecommerce})` }}
-              className=" group container rounded-md flex justify-center items-center mx-auto content-div "
+              className=" group container rounded-md flex justify-center items-center  content-div object-contained"
             >
               {/* Hover effect */}
 
@@ -46,7 +46,7 @@ const Work2 = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="px-4">
               <h2 className="pt-4 text-2xl"> E-commerce online shop</h2>
               <p>
                 The online shopping website offers users the ability to
@@ -56,7 +56,7 @@ const Work2 = () => {
                 experience.
               </p>
             </div>
-            <div className="flex flex-row flex-wrap  space-x-2 text-center py-2  text-white">
+            <div className="flex flex-row flex-wrap  space-x-2 text-center py-2  text-white px-2">
               <h2 className="bg-pink-600 dark:bg-amber-600 mt-2  px-2 rounded-md">
                 React
               </h2>
@@ -195,7 +195,7 @@ const Work2 = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="px-4">
               <h2 className="pt-4 text-2xl">My Blog</h2>
               <p>
                 The platform allows users to create and delete posts, including
@@ -204,23 +204,23 @@ const Work2 = () => {
                 access.
               </p>
             </div>
-            <div className="flex flex-row space-x-2 text-center py-2 text-white">
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-24 rounded-md">
+            <div className="flex flex-row flex-wrap  space-x-2 text-center  mt-2 text-white px-2">
+              <h2 className="bg-pink-600  dark:bg-amber-600 px-2  rounded-md">
                 Next.js
               </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-20 rounded-md">
+              <h2 className="bg-pink-600  dark:bg-amber-600 px-2  rounded-md">
                 Tailwind
               </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
+              <h2 className="bg-pink-600  dark:bg-amber-600 px-2 rounded-md">
                 MongoDB
               </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
+              <h2 className="bg-pink-600   dark:bg-amber-600 px-2 rounded-md">
                 Next Auth
               </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
+              <h2 className="bg-pink-600  dark:bg-amber-600  px-2 rounded-md">
                 SWR
               </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
+              <h2 className="bg-pink-600  dark:bg-amber-600 px-2 mt-2 rounded-md">
                 Cloudinary
               </h2>
             </div>
@@ -272,14 +272,14 @@ const Work2 = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="px-4">
               <h2 className="pt-4 text-2xl">Search Meal </h2>
               <p>
                 Create search meal app for view recipe from Mealdb API and
                 random meal with mobile friendly
               </p>
             </div>
-            <div className="flex flex-row space-x-2 text-center py-2 text-white">
+            <div className="flex flex-row space-x-2 text-center py-2 text-white  flex-wrap px-2">
               <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
                 React
               </h2>
@@ -338,14 +338,14 @@ const Work2 = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="px-4">
               <h2 className="pt-4 text-2xl"> Acronym Mobile App</h2>
               <p>
                 Effortlessly manage your vocabulary with our mobile app can
                 create,update,delete new word
               </p>
             </div>
-            <div className="flex flex-row  flex-wrap  space-x-2 items-center  text-center py-2 text-white">
+            <div className="flex flex-row  flex-wrap  space-x-2 items-center  text-center py-2 text-white px-2">
               <h2 className="bg-pink-600  dark:bg-amber-600 my-2 w-16 rounded-md">
                 Kotlin
               </h2>
