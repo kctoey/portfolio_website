@@ -20,10 +20,10 @@ const Skills = () => {
     >
       <div className="max-w-[1000px] mx-auto py-8 px-4 flex flex-col justify-center h-full">
         <div>
-          <p className="text-4xl inline border-b-4  border-pink-600 uppercase">
+          <p className="font-bold text-4xl inline border-b-4  border-pink-600 uppercase">
             Skills
           </p>
-          <p className="py-2 text-xl">
+          <p className="py-6 md:py-2 text-xl">
             These are the technologies I've worked with
           </p>
         </div>

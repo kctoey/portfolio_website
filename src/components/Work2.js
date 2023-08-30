@@ -14,12 +14,12 @@ const Work2 = () => {
     >
       <div className="max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="my-6 pt-16">
-          <p className=" text-4xl pt-4  inline border-b-4 border-pink-600 uppercase">
-            Personal Projects
+          <p className="font-bold text-4xl pt-4  inline border-b-4 border-pink-600 uppercase">
+            Projects
           </p>
         </div>
         {/* grid container */}
-        <div className="grid grid-none  md:grid-cols-2 gap-4 ">
+        <div className="py-6 md:py-2 grid grid-none  md:grid-cols-2 gap-4 ">
           {/* grid item */}
           <div className=" p-4 bg-white dark:bg-slate-800 rounded-xl shadow-2xl transition duration-200 hover:scale-105 ">
             <div
@@ -214,10 +214,10 @@ const Work2 = () => {
               <h2 className="bg-pink-600  dark:bg-amber-600 px-2 rounded-md">
                 MongoDB
               </h2>
-              <h2 className="bg-pink-600   dark:bg-amber-600 px-2 rounded-md">
+              <h2 className="bg-pink-600   dark:bg-amber-600 mt-2 px-2 rounded-md">
                 Next Auth
               </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600  px-2 rounded-md">
+              <h2 className="bg-pink-600  dark:bg-amber-600 mt-2  px-2 rounded-md">
                 SWR
               </h2>
               <h2 className="bg-pink-600  dark:bg-amber-600 px-2 mt-2 rounded-md">
@@ -289,7 +289,7 @@ const Work2 = () => {
               <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
                 API
               </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-24 rounded-md">
+              <h2 className="bg-pink-600 mt-2  dark:bg-amber-600 w-24 rounded-md">
                 useContext
               </h2>
             </div>

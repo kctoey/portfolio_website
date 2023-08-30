@@ -9,10 +9,10 @@ const Education = () => {
       <div className="max-w-[1000px] mx-auto flex flex-col justify-center items-center text-center h-full px-4">
         <div className=" w-full px-4 ">
           <div className=" pb-0  mb-4">
-            <p className="text-start text-4xl   inline border-b-4 border-pink-600 uppercase">
+            <p className="font-bold text-start text-4xl   inline border-b-4 border-pink-600 uppercase">
               Education
             </p>
-            <div className=" flex flex-col text-xl">
+            <div className=" py-6 md:py-2 flex flex-col text-xl">
               <div className="md:grid md:grid-cols-2 gap-8 px-4 md:w-[1000px]  ">
                 <div className=" py-4  flex-row ">
                   <h1 className="w-36 border-solid text-center bg-pink-600 dark:bg-amber-600 text-white  rounded-full">
@@ -42,10 +42,10 @@ const Education = () => {
         </div>
         <div className=" w-full px-4 ">
           <div>
-            <p className="text-start text-4xl  inline border-b-4 border-pink-600 uppercase">
+            <p className="font-bold text-start  text-4xl  inline border-b-4 border-pink-600 uppercase">
               Certification
             </p>
-            <div className=" flex flex-col text-xl pt-2">
+            <div className="py-6 md:py-2 flex flex-col text-xl ">
               <div className="md:grid md:grid-cols-2 gap-8 px-4 md:w-[1000px] ">
                 <div className=" py-2  flex-row ">
                   <h1 className="w-40 border-solid text-center bg-pink-600 dark:bg-amber-600 text-white  rounded-full">
