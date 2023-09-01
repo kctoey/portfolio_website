@@ -205,13 +205,13 @@ const Work2 = () => {
               </p>
             </div>
             <div className="flex flex-row flex-wrap  space-x-2 text-center  mt-2 text-white px-2">
-              <h2 className="bg-pink-600  dark:bg-amber-600 px-2  rounded-md">
+              <h2 className="bg-pink-600  dark:bg-amber-600 px-2 mt-2  rounded-md">
                 Next.js
               </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600 px-2  rounded-md">
+              <h2 className="bg-pink-600  dark:bg-amber-600 px-2  mt-2 rounded-md">
                 Tailwind
               </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600 px-2 rounded-md">
+              <h2 className="bg-pink-600  dark:bg-amber-600 px-2 mt-2 rounded-md">
                 MongoDB
               </h2>
               <h2 className="bg-pink-600   dark:bg-amber-600 mt-2 px-2 rounded-md">
@@ -280,13 +280,13 @@ const Work2 = () => {
               </p>
             </div>
             <div className="flex flex-row space-x-2 text-center py-2 text-white  flex-wrap px-2">
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
+              <h2 className="bg-pink-600 mt-2  dark:bg-amber-600 w-16 rounded-md">
                 React
               </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-20 rounded-md">
+              <h2 className="bg-pink-600 mt-2 dark:bg-amber-600 w-20 rounded-md">
                 Tailwind
               </h2>
-              <h2 className="bg-pink-600  dark:bg-amber-600 w-16 rounded-md">
+              <h2 className="bg-pink-600 mt-2 dark:bg-amber-600 w-16 rounded-md">
                 API
               </h2>
               <h2 className="bg-pink-600 mt-2  dark:bg-amber-600 w-24 rounded-md">
