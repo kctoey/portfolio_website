@@ -2,7 +2,7 @@ import React from "react";
 import { RiArrowRightCircleLine } from "react-icons/ri";
 import { Link } from "react-scroll";
 import Switcher from "./Switcher";
-import Resume from "../asset/Resume_Kanchaporn.pdf";
+import Resume from "../asset/My Resume.pdf";
 import Lottie from "lottie-react";
 import animation from "../asset/animation_llm15ew9.json";
 
